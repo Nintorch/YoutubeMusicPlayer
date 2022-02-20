@@ -1,6 +1,8 @@
 # YoutubeMusicPlayer
 A music player that plays the music from youtube using the search. I made it because I wanted to, lol
 
+![design](https://user-images.githubusercontent.com/92302738/154856580-83a29835-5480-40c1-97d6-2f11fd66afc9.png)
+
 Features:
 - Download the track using the search request, the first result will be downloaded
 - Slider as the current posision in the track, pause and stop buttons
