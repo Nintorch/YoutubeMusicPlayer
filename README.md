@@ -6,6 +6,7 @@ A music player that plays the music from youtube using the search. I made it bec
 Features:
 - Download the track using the search request, the first result will be downloaded
 - Slider as the current posision in the track, pause and stop buttons
+- Press right arrow to skip 5 seconds and left arrow to go 5 seconds back
 - Video thumbnail is downloaded and shown in the player
 
 Requirements:
