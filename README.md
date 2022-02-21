@@ -20,3 +20,5 @@ Requirements:
 Todo:
 - A playlist of downloaded tracks
 - Volume control
+- Themes maybe
+- Change the downloaded tracks naming system (so the files' names were a video names instead of video ids) 
