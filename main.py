@@ -1,5 +1,10 @@
 import downloader
 import pygame
+# Import these separately so VSCode can see them
+import pygame.mixer
+import pygame.surface
+import pygame.transform
+import pygame.time
 import pygame_gui
 from pygame._sdl2.video import Window
 import pynput
@@ -215,6 +220,10 @@ while running:
 
     manager.update(delta_time)
 
+
+    thumbnail_bg = pygame.transform.scale(thumbnail,(160*3,120*3))
+    thumbnail_bg.set_alpha(60)
+    screen.blit(thumbnail_bg,(450/2-160*3/2,180/2-120*3/2))
     screen.blit(header, (0, 0))
     screen.blit(pygame.transform.scale(thumbnail, (160, 120)), (280, 40))
 
